@@ -1,0 +1,15 @@
+@import '../../assets/css/variables.scss';
+
+.header-sec{
+    display: inline-block;
+    width: 100%;
+    .topheader{
+        background: $header-bg-color;
+        width: 100%;
+        height: 80px;
+    }
+    .subheader{
+        background: $sub-header-bg;
+        height: 54px;
+    }
+}
