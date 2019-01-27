@@ -1,19 +1,36 @@
 <header class="header-sec">
     <div class="topheader">
       <div class="container">
-        <div class="logo">
-          <img src="../../assets/images/logo-small.png" alt="">
-        </div>
-        <div class="menulist">
-          <ul>
-            <li><a href="" routerlink="/home">Home</a></li>
-            <li><a href="" routerlink="/postdetails">Specialities</a></li>
-            <li><a href="" routerlink="/postdetails">Prevention</a></li>
-            <li><a href="" routerlink="/postdetails">Innovation</a></li>
-            <li><a href="" routerlink="/postdetails">Pharmacy</a></li>
-            <li><a href="" routerlink="/postdetails">More</a></li>
-          </ul>
-        </div>
+        <nav class="navbar">
+          <a href="" routerlink="/home" class="navbar-brand"><img src="../../assets/images/logo-small.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="active"><a href="" routerlink="/home">Home</a></li>
+                <li><a href="" routerlink="/postdetails">Specialities</a></li>
+                <li><a href="" routerlink="/postdetails">Prevention</a></li>
+                <li><a href="" routerlink="/postdetails">Innovation</a></li>
+                <li><a href="" routerlink="/postdetails">Pharmacy</a></li>
+                <li><a href="" routerlink="/postdetails">More</a></li>
+              </ul>
+            </div>
+            <div class="header-search-wrap">
+              <div class="td-search-btns-wrap">
+                <a id="td-header-search-button" href="#" role="button" class="dropdown-toggle " data-toggle="dropdown"><i class="td-icon-search"></i></a>
+                <a id="td-header-search-button-mob" href="#" role="button" class="dropdown-toggle " data-toggle="dropdown"><i class="td-icon-search"></i></a>
+                </div>
+                <div class="td-drop-down-search" aria-labelledby="td-header-search-button">
+                <form method="get" class="td-search-form" action="https://demo.tagdiv.com/newspaper_medicine/">
+                <div role="search" class="td-head-form-search-wrap">
+                <input id="td-header-search" type="text" value="" name="s" autocomplete="off"><input class="wpb_button wpb_btn-inverse btn" type="submit" id="td-header-search-top" value="Search">
+                </div>
+                </form>
+                <div id="td-aj-search"></div>
+              </div>
+            </div>
+        </nav>
       </div>
     </div>
     <div class="subheader">
