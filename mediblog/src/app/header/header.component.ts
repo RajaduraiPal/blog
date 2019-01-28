@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  today: any = Date.now(); 
   constructor() { }
 
   ngOnInit() {
