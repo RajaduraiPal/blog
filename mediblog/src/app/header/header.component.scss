@@ -66,14 +66,17 @@
         background: $sub-header-bg;
         height: 54px;
         .listmenusec{
+            height: 54px;
             label{
                 cursor: default;
                 color: $white-color;
+                margin: 0;
             }
             ul{
                 list-style-type: none;
                 display: inline-block;
                 padding: 0;
+                margin: 0;
                 li{
                     float: left;
                     color: $white-color;

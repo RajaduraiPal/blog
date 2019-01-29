@@ -45,6 +45,8 @@ import {
   MatTooltipModule,
   MatTreeModule,
 } from '@angular/material';
+import { ArticlesComponent } from './articles/articles.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -52,7 +54,9 @@ import {
     AppComponent,
     HeaderComponent,
     PostdetailComponent,
-    HomeComponent
+    HomeComponent,
+    ArticlesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
